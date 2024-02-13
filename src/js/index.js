@@ -5,12 +5,12 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Clock from "../js/component/Clock";
+import Home from "./component/Home";
 
 //render your react application
 let segundos = 0;
 setInterval(() => {
-  ReactDOM.render(<Clock seconds={segundos} />, document.querySelector("#app"));
+  ReactDOM.render(<Home seconds={segundos} />, document.querySelector("#app"));
   console.log("segundos:", segundos);
   segundos++;
 }, 1000);

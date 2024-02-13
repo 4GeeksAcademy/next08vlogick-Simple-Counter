@@ -1,6 +1,6 @@
 import React from "react";
 
-const Clock = (props) => {
+const Home = (props) => {
   return (
     <div className=" container-fluid row justify-content-center position-absolute top-50 start-50 translate-middle    border-danger-">
       <div class="gearbox">
@@ -65,4 +65,4 @@ const Clock = (props) => {
   );
 };
 
-export default Clock;
+export default Home;
