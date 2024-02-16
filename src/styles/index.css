@@ -9,13 +9,23 @@
   height: 70px;
   margin-top: 80px;
   margin-left: 10px;
+  color: white;
+  font-size: 40px;
 
-  background-color: orange;
+  background-color: black;
 }
 
 .numeros00 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 4px;
+}
+
+.color {
+  color: orange;
+}
+
+.ccajas {
+  background-color: aliceblue;
 }
 
 @keyframes clockwise {

@@ -39,27 +39,27 @@ const Home = (props) => {
       </div>
 
       <div className="cajitas me-1 rounded col-2">
-        <div className="numeros00">{props.seconds}</div>
+        <div className="numeros00">0</div>
       </div>
 
       <div className="cajitas me-1 rounded col-2">
-        <div className="numeros00">{props.seconds}</div>
+        <div className="numeros00">0</div>
       </div>
 
       <div className="cajitas me-1 rounded col-2">
-        <div className="numeros00">{props.seconds}</div>
+        <div className="numeros00">0</div>
       </div>
 
-      <div className="cajitas me-1 rounded col-2">
-        <div className="numeros00">{props.seconds}</div>
+      <div className="cajitas me-1 rounded col-2 ccajas">
+        <div className="numeros00 color">{props.digito3}</div>
       </div>
 
-      <div className="cajitas me-1 rounded col-2">
-        <div className="numeros00">{props.seconds}</div>
+      <div className="cajitas me-1 rounded col-2 ccajas">
+        <div className="numeros00 color">{props.digito2}</div>
       </div>
 
-      <div className="cajitas me-1 rounded col-2">
-        <div className="numeros00 ">{props.seconds}</div>
+      <div className="cajitas me-1 rounded col-2 ccajas">
+        <div className="numeros00 color ">{props.digito1}</div>
       </div>
     </div>
   );
